@@ -8,11 +8,10 @@
 </head>
 <body>
 
+  <!-- Navbar -->
   <header class="site-header">
     <div class="container header-inner">
-      <div class="logo">
-        <a href="#">VisionMateCo</a>
-      </div>
+      <div class="logo"><a href="#">VisionMateCo</a></div>
       <nav class="site-nav">
         <ul>
           <li><a href="#about">About</a></li>
@@ -25,73 +24,70 @@
     </div>
   </header>
 
+  <!-- Hero -->
   <section class="hero">
-    <div class="container">
-      <h1>Welcome to VisionMateCo</h1>
-      <p>Your partner in visionary solutions.</p>
-      <a href="#contact" class="btn-primary">Get in Touch</a>
+    <div class="hero-content">
+      <h1>Innovate. Create. Inspire.</h1>
+      <p>We bring futuristic solutions with technology and vision.</p>
+      <a href="#contact" class="btn-primary">Get Started</a>
     </div>
   </section>
 
+  <!-- About -->
   <section id="about" class="section about">
     <div class="container">
       <h2>About Us</h2>
-      <p>We are a company specialized in … (describe your mission, values, etc.)</p>
+      <p>VisionMateCo is a tech-driven company providing cutting-edge digital solutions. We believe in creating meaningful experiences with innovation and design.</p>
     </div>
   </section>
 
+  <!-- Services -->
   <section id="services" class="section services">
     <div class="container">
       <h2>Our Services</h2>
-      <div class="service-cards">
+      <div class="card-grid">
         <div class="card">
-          <h3>Service One</h3>
-          <p>Brief description.</p>
+          <h3>Web Development</h3>
+          <p>Modern, responsive websites with stunning designs.</p>
         </div>
         <div class="card">
-          <h3>Service Two</h3>
-          <p>Brief description.</p>
+          <h3>Mobile Apps</h3>
+          <p>Android & iOS apps crafted with user experience in mind.</p>
         </div>
         <div class="card">
-          <h3>Service Three</h3>
-          <p>Brief description.</p>
+          <h3>AI Solutions</h3>
+          <p>Smart tools & automation powered by artificial intelligence.</p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Projects -->
   <section id="projects" class="section projects">
     <div class="container">
-      <h2>Projects</h2>
+      <h2>Our Projects</h2>
       <div class="project-grid">
-        <div class="project-item">
-          <img src="assets/images/project1.jpg" alt="Project 1" />
-          <h4>Project One</h4>
-        </div>
-        <div class="project-item">
-          <img src="assets/images/project2.jpg" alt="Project 2" />
-          <h4>Project Two</h4>
-        </div>
-        <div class="project-item">
-          <img src="assets/images/project3.jpg" alt="Project 3" />
-          <h4>Project Three</h4>
-        </div>
+        <div class="project-item"><img src="assets/images/project1.jpg" alt="Project 1"><h4>Project One</h4></div>
+        <div class="project-item"><img src="assets/images/project2.jpg" alt="Project 2"><h4>Project Two</h4></div>
+        <div class="project-item"><img src="assets/images/project3.jpg" alt="Project 3"><h4>Project Three</h4></div>
       </div>
     </div>
   </section>
 
+  <!-- Contact -->
   <section id="contact" class="section contact">
     <div class="container">
       <h2>Contact Us</h2>
-      <form action="#" method="post" class="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
         <button type="submit" class="btn-primary">Send Message</button>
       </form>
     </div>
   </section>
 
+  <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
       <p>© 2025 VisionMateCo. All rights reserved.</p>
@@ -99,13 +95,11 @@
   </footer>
 
   <script>
-    // Simple mobile menu toggle
     const toggle = document.querySelector(".mobile-menu-toggle");
     const nav = document.querySelector(".site-nav ul");
     toggle.addEventListener("click", () => {
       nav.classList.toggle("active");
     });
   </script>
-
 </body>
 </html>
